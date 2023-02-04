@@ -1,6 +1,11 @@
 import React from 'react';
+import Ad from './ad';
 import styles from './styles.module.scss';
 
 export default function Header() {
-  return <div>Header</div>;
+  return (
+    <header className={styles.header}>
+      <Ad />
+    </header>
+  );
 }
