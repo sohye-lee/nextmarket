@@ -10,9 +10,8 @@ export default function Top() {
             <img src="/logo.svg" width="80" alt="logo" />
           </Link>
         </div>
-        <ul className={styles.top__list}>
-          <li></li>
-        </ul>
+        <input type="search" name="search" />
+        <div className={styles.top__list}></div>
       </div>
     </div>
   );
